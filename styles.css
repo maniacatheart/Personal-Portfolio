@@ -301,3 +301,9 @@ textarea {
     justify-content: center;
     align-items: center;
 }
+
+/* Add to styles.css */
+.dark-mode {
+  background: #181818;
+  color: #f1f1f1;
+}
