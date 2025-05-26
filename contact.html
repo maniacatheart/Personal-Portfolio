@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaylen's Contact Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/9d396c5aa2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="heading" id="heading">
+        <div class="headingLogo">
+            <h1>Jaylen Reyes</h1>
+            <h2>Junior Web Developer</h2>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="./index.html">About</a></li>
+                <li><a href="./index.html">Projects</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="contact" id="contact">
+        <div class="contact-container">
+            <div class="contact-heading">
+                <h2>Contact Me</h2>
+                <p>If you have any questions or would like to get in touch, feel free to reach out!</p>
+            </div>
+            <div class="contact-form">
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Feel free to ask me anything"></textarea>
+                    
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <div class="contact-list">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email: <a href="mailto:liljaybusiness12@gmail.com">liljaybusiness12@gmail.com</a></span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>Phone: <a href="tel:+12345678900">+1 234 567 8900</a></span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <span>LinkedIn: <a href="https://www.linkedin.com/in/jaylen-reyes" target="_blank">Jaylen Reyes</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./app.js"></script>
+</html>
